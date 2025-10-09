@@ -1,3 +1,6 @@
 [submodule "calculadora/glsd_suma"]
 	path = calculadora/glsd_suma
 	url = https://github.com/2025-b-sw-construccion-gr2/glsd_suma
+[submodule "calculadora/glsd_resta"]
+	path = calculadora/glsd_resta
+	url = https://github.com/2025-b-sw-construccion-gr2/glsd_resta
