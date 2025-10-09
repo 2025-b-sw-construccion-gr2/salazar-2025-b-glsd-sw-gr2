@@ -1,4 +1,5 @@
 from glsd_suma.archivo_de_logica_suma import Suma
+from glsd_resta.archivo_de_logica_resta import Resta
 
 class Main:
     @staticmethod
@@ -22,7 +23,7 @@ class Main:
                 if opcion == 1:
                     Suma.sumar(primerValor, segundoValor)
                 elif opcion == 2:
-                    print("Aqui iria la resta, pero no se ha implementado.")
+                    Resta.restar(primerValor, segundoValor)
 
             except ValueError:
                 print("Error: Número no valido.")
