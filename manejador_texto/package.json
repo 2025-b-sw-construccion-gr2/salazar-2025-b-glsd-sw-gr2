@@ -1,0 +1,10 @@
+{
+    "name": "manejador_texto",
+    "version": "1.0.0",
+    "description": "Un manejador de texto simple en Node.js",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js"
+    }
+}
