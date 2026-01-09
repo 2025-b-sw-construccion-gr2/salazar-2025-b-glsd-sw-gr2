@@ -14,9 +14,13 @@ RUN npm install --production
 COPY . .
 
 # 6. Compila el proyecto NestJS
+RUN npm run format:check
+RUN npm run lint
+RUN npm test
 RUN npm run build
 
 # 7. Expone el puerto en el que corre tu app (por defecto 3000)
 EXPOSE 3000
 
-
+# 8. Comando para iniciar la app
+CMD ["node", "dist/main"]

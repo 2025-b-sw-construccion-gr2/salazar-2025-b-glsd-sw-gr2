@@ -2,6 +2,7 @@ import { Test, TestingModule } from '@nestjs/testing';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 
+// Unit test for AppController
 describe('AppController', () => {
   let appController: AppController;
 

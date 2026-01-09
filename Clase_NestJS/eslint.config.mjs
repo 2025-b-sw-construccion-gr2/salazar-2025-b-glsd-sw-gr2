@@ -30,6 +30,8 @@ export default tseslint.config(
       '@typescript-eslint/no-floating-promises': 'warn',
       '@typescript-eslint/no-unsafe-argument': 'warn',
       "prettier/prettier": ["error", { endOfLine: "auto" }],
+      // Allow console.warn, console.error, console.debug, and console.log for logging purposes
+      "no-console": ["error", { allow: ["warn", "error", "debug", "log"] }]
     },
   },
 );
