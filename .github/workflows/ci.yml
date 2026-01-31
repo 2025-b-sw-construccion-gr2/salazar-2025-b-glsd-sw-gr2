@@ -20,9 +20,11 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: Examen-02/hangman
 
       - name: Run ESLint
         run: npm run lint
+        working-directory: Examen-02/hangman
         continue-on-error: true
 
   format:
@@ -38,9 +40,11 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: Examen-02/hangman
 
       - name: Check code format
         run: npm run format:check
+        working-directory: Examen-02/hangman
         continue-on-error: true
 
   test:
@@ -56,14 +60,16 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: Examen-02/hangman
 
       - name: Run tests with coverage
         run: npm test
+        working-directory: Examen-02/hangman
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
         with:
-          files: ./coverage/coverage-final.json
+          files: ./Examen-02/hangman/coverage/coverage-final.json
           fail_ci_if_error: false
 
   build:
@@ -80,9 +86,11 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: Examen-02/hangman
 
       - name: Build project
         run: npm run build
+        working-directory: Examen-02/hangman
 
       - name: Build Success
         run: echo "✅ Build completed successfully!"
