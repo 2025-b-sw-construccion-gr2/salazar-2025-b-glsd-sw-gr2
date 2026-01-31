@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1769875070475" clover="3.2.0">
-  <project timestamp="1769875070476" name="All files">
+<coverage generated="1769877086653" clover="3.2.0">
+  <project timestamp="1769877086653" name="All files">
     <metrics statements="32" coveredstatements="9" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0" elements="42" coveredelements="9" complexity="0" loc="32" ncloc="32" packages="1" files="1" classes="1"/>
     <file name="hangman.js" path="C:\Users\sebas\Desktop\Sexto Semestre\Construccion\gregor\salazar-2025-b-glsd-sw-gr2\Examen-02\hangman\hangman.js">
       <metrics statements="32" coveredstatements="9" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
