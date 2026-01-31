@@ -184,11 +184,7 @@ Para hacer cambios al proyecto:
 
 ## 👥 Autor
 
-Desarrollado como proyecto de evaluación - Curso de Construcción de Software
-
-## 📄 Licencia
-
-MIT License - Ver LICENSE para más detalles
+Sebastián León, Gregory Salazar
 
 ---
 
