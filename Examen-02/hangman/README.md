@@ -97,6 +97,7 @@ Push/PR → Lint → Format Check → Tests → Build
                               ✅ Aprobado o ❌ Rechazado
 ```
 
+![pipeline](image.png)
 ## 📝 Estructura del Proyecto
 
 ```
