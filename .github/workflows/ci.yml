@@ -62,6 +62,10 @@ jobs:
         run: npm install
         working-directory: Examen-02/hangman
 
+      - name: Fix npm permissions
+        run: chmod -R 755 node_modules/.bin
+        working-directory: Examen-02/hangman
+
       - name: Run tests with coverage
         run: npm test
         working-directory: Examen-02/hangman
